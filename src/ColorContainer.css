@@ -6,18 +6,23 @@
 }
 .section_color_green {
     background: rgba(0, 128, 0, 0.6);
+    transition: all 2s ease;
 }
 .section_color_blue {
     background: #0000ffA0;
+    transition: all 2s ease;
 }
 .section_color_yellow {
     background: #a52a2aa0;
+    transition: all 2s ease;
 }
 .section_color_magenta {
     background: #ff00ffA0;
+    transition: all 2s ease;
 }
 .section_color_black {
     background: #000000A0;
+    transition: all 2s ease;
 }
 .btn {
     position: absolute;
@@ -25,6 +30,7 @@
     right: 0;
     left: 0;
     margin: auto;
+    padding: 0;
     border-radius: 50%;
     border: none;
     width: 80px;
@@ -43,6 +49,9 @@
     box-shadow: 2px 2px 20px rgba(0, 0, 0, .4);
     transition: all .7s ease;
 }
+.btn:active {
+    transform: scale(.9);
+}
 .btn, .btn:hover {
     text-decoration: none;
 }
@@ -59,4 +68,8 @@
     font-size: 30px;
     color: #fff;
     font-weight: 300;
+}
+.btn svg {
+    width: 80px;
+    height: 80px;
 }

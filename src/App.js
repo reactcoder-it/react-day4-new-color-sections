@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import ColorSection from './ColorSection';
+import ColorContainer from './ColorContainer';
 
 class App extends Component {
   render() {
@@ -42,11 +42,10 @@ class App extends Component {
         text: "В любых ситуациях, в которых вы когда-либо были, положительных или отрицательных, общее – это вы. Ответственность – это признание, что независимо от того, что произошло до этого момента в вашей жизни, вы способны сделать выбор, чтобы либо изменить ситуацию, либо изменить своё отношение к ней."
       }
     ];
-    
-    var sections = data.map((chunk) => {
-      return <ColorSection id={chunk.id} color={chunk.color} goto={chunk.goto} title={chunk.title} text={chunk.text} />
-    });
-    return <div>{sections}</div>;
+
+    return (
+      <ColorContainer data={data} />
+    );
   }
 }
 
