@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-day4-new-color-sections/static/js/runtime~main.acf7d949.js"
   },
   {
-    "revision": "01ca738accfc172a32ce",
-    "url": "/react-day4-new-color-sections/static/js/main.01ca738a.chunk.js"
+    "revision": "91dfddf656fc6f1e4027",
+    "url": "/react-day4-new-color-sections/static/js/main.91dfddf6.chunk.js"
   },
   {
     "revision": "4fd91c74e51506835aa9",
     "url": "/react-day4-new-color-sections/static/js/1.4fd91c74.chunk.js"
   },
   {
-    "revision": "01ca738accfc172a32ce",
-    "url": "/react-day4-new-color-sections/static/css/main.b1cc3f0d.chunk.css"
+    "revision": "91dfddf656fc6f1e4027",
+    "url": "/react-day4-new-color-sections/static/css/main.432a66d3.chunk.css"
   },
   {
-    "revision": "b847edafd22992f7ea05021ab8e243d7",
+    "revision": "4d7d9f38125f1d648b286f6167e6509b",
     "url": "/react-day4-new-color-sections/index.html"
   }
 ];

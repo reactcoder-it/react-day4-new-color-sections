@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/react-day4-new-color-sections/precache-manifest.f2bc4dad7dae2062c4116609b5cbfa15.js"
+  "/react-day4-new-color-sections/precache-manifest.4bb8cd58e9d2cb0f538dabc711e9aa55.js"
 );
 
 workbox.clientsClaim();
