@@ -73,3 +73,16 @@
     width: 80px;
     height: 80px;
 }
+@media (max-width: 768px) {
+    .text {
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .section {
+        padding-top: 40px;
+        padding-bottom: 0;
+        height: calc(100vh - 60px);
+    }
+}
